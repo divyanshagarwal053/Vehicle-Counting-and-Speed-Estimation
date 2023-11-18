@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Car', 'Cyclist', 'DontCare', 'Misc', 'Pedestrian', 'Person_sitting', 'Tram', 'Truck', 'Van']
+
+roboflow:
+  workspace: project
+  project: yolov8-6apfg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/yolov8-6apfg/dataset/1
